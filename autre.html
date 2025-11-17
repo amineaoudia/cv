@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Autres</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .two-columns {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .two-columns section {
+      width: 50%;
+    }
+    @media(max-width: 800px){
+      .two-columns {
+        flex-direction: column;
+      }
+      .two-columns section {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header container">
+    <h1>Autre</h1>
+    <nav>
+    <a href="index.html">Accueil</a>
+      <a href="projects.html">Projets</a>
+      <a href="education.html">Éducation</a>
+      <a href="skills.html">Compétences</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container cv-main">
+
+    <div class="two-columns">
+
+      <section id="languages">
+        <h2>Langues</h2>
+        <ol>
+          <li><strong>Français :</strong> C1 Avancé (TCF – 585 pts)</li>
+          <li><strong>Anglais :</strong> C1 Avancé (EF SET)</li>
+          <li><strong>Kabyle :</strong> Langue maternelle</li>
+          <li><strong>Arabe :</strong> Courant</li>
+          <li><strong>Italien :</strong> Débutant</li>
+        </ol>
+      </section>
+
+      <section id="interests">
+        <h2>Centres d'intérêt</h2>
+        <ol>
+          <li>Lecture et développement personnel</li>
+          <li>Musculation et fitness</li>
+          <li>Échecs</li>
+          <li>L'univers digital et les innovations</li>
+          <li>Voyages et randonnées</li>
+          <li>Mode et tendances vestimentaires</li>
+        </ol>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="container">
+    <p>© AOUDIA Amine</p>
+  </footer>
+</body>
+</html>

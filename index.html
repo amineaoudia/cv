@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AOUDIA Amine — CV</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <h1>AOUDIA Amine</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="projects.html">Projets</a>
+      <a href="education.html">Éducation</a>
+      <a href="skills.html">Compétences</a>
+      <a href="autre.html">Autres</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container cv-main">
+    <section id="education">
+      <h2>Éducation</h2>
+      <ol>
+        <li><strong>Baccalauréat Série Mathématiques : </strong> Lycée mixte d'Adekar, Mention : Bien (15,54), 2023</li>
+        <li><strong>Licence 1 en Mathématiques et Informatique :</strong>: Université de Bejaïa, 2023 - 2024</li>
+        <li><strong>Licence 2 en Informatique :</strong> Université de Bejaïa, 2024 - 2025</li>
+        <li><strong>Licence 3 en Informatique : </strong> Université de Bejaïa, 2025 - En cours</li>
+      </ol>
+    </section>
+
+    <section id="projets">
+      <h2>Projets</h2>
+      <ol>
+        <li>Site web personnel (HTML, CSS, JavaScript, PHP, MySQL)</li>
+        <li>Jeu Tic Tac Toe (Python)</li>
+        <li>Application To-Do List (HTML, CSS, JavaScript)</li>
+        <li>Système de gestion de clients (Java)</li>
+        <li>Mini-projets de programmation (Python, C, C++, Java, Scilab)</li>
+        <li>Conception de base de données (MySQL)</li>
+      </ol>
+    </section>
+
+    <section id="skills">
+      <h2>Compétences</h2>
+      <ol>
+        <li><strong>Programmation :</strong> Python, C, C++, Java, Scilab, Matlab</li>
+        <li><strong>Développement web :</strong> HTML, CSS, JavaScript, PHP</li>
+        <li><strong>Bases de données :</strong> SQL, MySQL</li>
+        <li><strong>Systèmes d'exploitation :</strong> MacOS, Windows, Linux (Ubuntu)</li>
+        <li><strong>Outils :</strong> VS Code, XCode, Netbeans, Cisco Packet Tracer, Word,
+Excel, Google Sheets, PowerPoint</li>
+        <li><strong>Création et design :</strong> Photoshop, Premiere Pro</li>
+      </ol>
+    </section>
+
+    <section id="languages">
+      <h2>Langues</h2>
+      <ol>
+        <li><strong>Français :</strong> C1 Avancé (TCF - 585 pts)</li>
+        <li><strong>Anglais :</strong> C1 Avancé (EF SET)</li>
+        <li><strong>Kabyle :</strong> Langue maternelle</li>
+        <li><strong>Arabe :</strong> Courant</li>
+        <li><strong>Italien :</strong> Débutant</li>
+      </ol>
+    </section>
+
+    <section id="interests">
+      <h2>Centres D'intéret</h2>
+      <ol>
+        <li>Lecture et développement personnel</li>
+        <li>Musculation et fitness</li>
+        <li>Échecs</li>
+        <li>L'univers digital et les innovations</li>
+        <li>Voyages et randonnées</li>
+        <li>Mode et tendances vestimentaires</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm" action="php/contact.php" method="post">
+        <label for="name">Nom</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+      <div id="contactStatus"></div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>© AOUDIA Amine</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
