@@ -1,5 +1,5 @@
 # CV — AOUDIA Amine
-Ce projet est mon site web personnel / CV en ligne, développé en HTML, CSS et JavaScript, PHP et MySQL. Il présente mon parcours, mes projets, mes compétences, mes centres d’intérêt ainsi que mes informations de contact. Avec un design moderne, responsive et minimaliste pour une navigation claire.
+This project is my personal website/online CV, developed using HTML, CSS, JavaScript, PHP, and MySQL. It showcases my background, projects, skills, interests, and contact information. It features a modern, responsive, and minimalist design for clear navigation.
 
 
 ## Technologies
